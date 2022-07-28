@@ -40,7 +40,7 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I could not get the feed to reload. I also feel I did not fully understand the instructions on it. 
 
 ## Open-source libraries used
 
