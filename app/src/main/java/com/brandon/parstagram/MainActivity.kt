@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentManager
 import com.brandon.parstagram.fragments.ComposeFragment
 import com.brandon.parstagram.fragments.FeedFragment
 import com.brandon.parstagram.fragments.ProfileFragment
+import com.brandon.parstagram.fragments.SettingFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.parse.*
 
@@ -39,6 +40,9 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.action_log_out -> {
                     onLogOut()
+                }
+                R.id.action_setting -> {
+                    fragmentToShow = SettingFragment()
                 }
             }
 

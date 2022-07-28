@@ -4,6 +4,11 @@
 
 
     <item
+        android:id="@+id/action_setting"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Setting"
+        app:showAsAction="always" />
+    <item
         android:id="@+id/action_home"
         android:icon="@android:drawable/ic_menu_compass"
         android:title="Home"
